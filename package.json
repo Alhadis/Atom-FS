@@ -2,7 +2,19 @@
 	"name": "atom-fs",
 	"version": "v0.0.0",
 	"main": "./lib/index.js",
+	"repository": "https://github.com/Alhadis/Atom-FS",
+	"description": "Filesystem abstraction layer for Atom",
+	"engines": {"atom": ">=1.13.0"},
 	"dependencies": {
 		"@alhadis/utils": "*"
+	},
+	"devDependencies": {
+		"atom-mocha": "*"
+	},
+	"atomTestRunner": "atom-mocha",
+	"atom-mocha": {
+		"mocha": {
+			"require": "chai/should"
+		}
 	}
 }
