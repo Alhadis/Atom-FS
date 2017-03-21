@@ -1,0 +1,8 @@
+{
+	"name": "atom-fs",
+	"version": "v0.0.0",
+	"main": "./lib/index.js",
+	"dependencies": {
+		"@alhadis/utils": "*"
+	}
+}
