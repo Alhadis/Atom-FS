@@ -7,7 +7,7 @@
 	"description": "Filesystem abstraction layer for Atom",
 	"engines": {"atom": ">=1.13.0"},
 	"dependencies": {
-		"alhadis.utils": "*"
+		"mapped-disposable": "^1.0.1"
 	},
 	"devDependencies": {
 		"atom-mocha": "*"
