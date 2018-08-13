@@ -6,6 +6,52 @@ const utils    = require("../lib/utils.js");
 
 
 describe("Utility functions", () => {
+	describe("nerf()", () => {
+		const {nerf} = utils;
+		
+		when("called", () => {
+			it("breaks if the subject isn't a function", () =>
+				expect(() => nerf(true)).to.throw());
+			
+			it("allows calling context to be specified", () => {
+				const obj = {};
+				const fn = function(){ return this; };
+				expect(nerf(fn)     ()).to.equal(null);
+				expect(nerf(fn, obj)()).to.equal(obj);
+			});
+		});
+
+		when("a nerfed function throws an error", () => {
+			it("catches the error and silences it", () => {
+				let called = false;
+				const nerfed = nerf(() => {
+					called = true;
+					throw new Error();
+				});
+				expect(nerfed).not.to.throw();
+				expect(called).to.be.true;
+			});
+			
+			it("stores the error as its `lastError` property", () => {
+				let errorObj = new Error();
+				const nerfed = nerf(() => { throw errorObj; });
+				expect(nerfed).to.have.property("lastError");
+				nerfed();
+				expect(nerfed.lastError).to.equal(errorObj);
+			});
+			
+			// FIXME: It should return `undefined` instead of `null`
+			it("returns `null`", () => {
+				const nerfed = nerf(arg => {
+					if(!arg) throw new Error();
+					return true;
+				});
+				expect(nerfed(true)).to.equal(true);
+				expect(nerfed(false)).to.equal(null);
+			});
+		});
+	});
+	
 	describe("statify()", () => {
 		const {statify} = utils;
 		const plainStats = {
