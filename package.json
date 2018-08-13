@@ -5,6 +5,7 @@
 	"author": "John Gardner <gardnerjohng@gmail.com>",
 	"repository": "https://github.com/Alhadis/Atom-FS",
 	"description": "Filesystem abstraction layer for Atom",
+	"files": ["index.js", "lib/*"],
 	"engines": {"atom": ">=1.13.0"},
 	"dependencies": {
 		"mapped-disposable": "^1.0.1"
