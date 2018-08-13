@@ -3,9 +3,12 @@ Change Log
 
 This project adheres to [Semantic Versioning](http://semver.org).
 
+[Staged]: https://github.com/Alhadis/Atom-FS/compare/v0.1.5...HEAD
 
-[Staged](https://github.com/Alhadis/Atom-FS/compare/v0.1.4...HEAD)
+
+[v0.1.5](https://github.com/Alhadis/Atom-FS/releases/tag/v0.1.5)
 ------------------------------------------------------------------------
+**August 13th, 2018**  
 * Inlined helper functions previously imported from [`alhadis.utils`][].
 * Removed event logging from system-task queue.
 * Added [`normalisePath`][] function to exports list.
