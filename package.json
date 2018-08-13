@@ -10,7 +10,8 @@
 		"mapped-disposable": "^1.0.1"
 	},
 	"devDependencies": {
-		"atom-mocha": "*"
+		"atom-mocha": "^2.0.5",
+		"eslint": "^5.3.0"
 	},
 	"atomTestRunner": "atom-mocha",
 	"atom-mocha": {
