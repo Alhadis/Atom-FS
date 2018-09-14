@@ -9,6 +9,10 @@ This project adheres to [Semantic Versioning](http://semver.org).
 [Staged]
 ------------------------------------------------------------------------
 * Transferred repository to `file-icons` organisation on GitHub
+* Upgraded [`mapped-disposable`][] dependency to [`v1.0.2`][1]
+
+[`mapped-disposable`]: https://github.com/file-icons/MappedDisposable
+[1]: https://github.com/file-icons/MappedDisposable/releases/tag/v1.0.2
 
 
 [v0.1.5](https://github.com/file-icons/Atom-FS/releases/tag/v0.1.5)
