@@ -3,11 +3,12 @@ Change Log
 
 This project adheres to [Semantic Versioning](http://semver.org).
 
-[Staged]: https://github.com/file-icons/Atom-FS/compare/v0.1.5...HEAD
+[Staged]: https://github.com/file-icons/Atom-FS/compare/v0.1.6...HEAD
 
 
-[Staged]
+[v0.1.6](https://github.com/file-icons/Atom-FS/releases/tag/v0.1.6)
 ------------------------------------------------------------------------
+**September 14th, 2018**  
 * Transferred repository to `file-icons` organisation on GitHub
 * Upgraded [`mapped-disposable`][] dependency to [`v1.0.2`][1]
 
