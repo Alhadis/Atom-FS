@@ -3,7 +3,7 @@
 	"version": "v0.1.5",
 	"license": "ISC",
 	"author": "John Gardner <gardnerjohng@gmail.com>",
-	"repository": "https://github.com/Alhadis/Atom-FS",
+	"repository": "https://github.com/file-icons/Atom-FS",
 	"description": "Filesystem abstraction layer for Atom",
 	"files": ["index.js", "lib/*"],
 	"engines": {"atom": ">=1.13.0"},
