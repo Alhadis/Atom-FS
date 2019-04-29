@@ -1,8 +1,7 @@
 "use strict";
 
-const fs       = require("fs");
-const {expect} = require("chai");
-const utils    = require("../lib/utils.js");
+const fs    = require("fs");
+const utils = require("../lib/utils.js");
 
 
 describe("Utility functions", () => {
