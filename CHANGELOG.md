@@ -6,6 +6,13 @@ This project adheres to [Semantic Versioning](http://semver.org).
 [Staged]: https://github.com/file-icons/atom-fs/compare/v0.2.0...HEAD
 
 
+[Staged]
+------------------------------------------------------------------------
+* Fixed breakage caused by mixing BigInts with other types [[`#10`][]].
+
+[`#10`]: https://github.com/file-icons/atom-fs/issues/10
+
+
 [v0.2.0](https://github.com/file-icons/atom-fs/releases/tag/v0.2.0)
 ------------------------------------------------------------------------
 **December 6th, 2020**  
