@@ -20,7 +20,7 @@ This project adheres to [Semantic Versioning](http://semver.org).
 * Fixed [broken handling][2] of very large inode values.
 * Resources are now [uniquely identified][2] by device number and inode.
 
-[`#9`]: https://github.com/Alhadis/repository/issues/9
+[`#9`]: https://github.com/file-icons/atom-fs/issues/9
 [2]: ../../commit/3e1a85c3a532e1170ebbcdb41ce0a025f4eb98de
 
 
